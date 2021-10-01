@@ -3,7 +3,7 @@
 ## Decription du jeu :
 
 Puissance 4 (appelé aussi connect 4 en anglais) est un jeu de stratégie combinatoire abstrait, commercialisé pour la première fois en 1974 par la Milton Bradley Company, plus connue sous le nom de MB et détenue depuis 1984 par la société Hasbro. *Source : Wikipedia*\
-Il faut impérativement être deux joueurs pour pouvoir jouer au puissance 4, cependant dans le cadre de ce projet, il est possible de jouer seul contre l'ordinateur.
+Il faut impérativement être deux joueurs pour pouvoir jouer au puissance 4.\
 Le but du jeu est d'aligner quatre pions de la même couleur afin que l'un des deux joueurs remporte la partie.
 Attention, une partie peut aussi se resulter par une égalité.
 
@@ -44,5 +44,19 @@ public static void main(String[] args) {
 ```
 
 ## Notice d'utilisation :
+Au lancement du jeu, les joueurs seront convié à renseigner leurs noms.\
+Le joueur 1 est représenté par un pion blanc et le joueur 2 est représenté par un pion noir.\
+Chaque colonne représente un numéro allant de de 1 a 7.\
+A chaque tour, un joueur doit renseigner un numéro afin qu'il puisse y déposer son pion.\
+A la fin de la partie, le vainqueur est afficher et le jeu demande si les joueurs veulent recommencer une nouvelle partie. Il suffit de répondre 1 pour Oui et 2 pour Non.
 
 ## Exemple d'utilisation :
+#### Choix du nom des joueurs :
+![alt text](https://github.com/Julian30520/connect4/blob/master/Images/playername.PNG "Image nom des joueurs")
+#### Le plateau de jeu :
+![alt text](https://github.com/Julian30520/connect4/blob/master/Images/board.PNG "Image plateau de jeu")
+#### Ecran de victoire :
+![alt text](https://github.com/Julian30520/connect4/blob/master/Images/win.PNG "Image victoire")
+#### Ecran demande nouvelle partie :
+![alt text](https://github.com/Julian30520/connect4/blob/master/Images/reload.PNG "Image recommencer partie")
+
